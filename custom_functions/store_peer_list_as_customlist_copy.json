@@ -1,0 +1,54 @@
+{
+    "create_time": "2020-12-19T04:40:24.318039+00:00",
+    "custom_function_id": "d94a527007141eb5cb8c7ce0ee9d5d0b7d01d55e",
+    "description": "",
+    "draft_mode": false,
+    "inputs": [
+        {
+            "contains_type": [
+                "*"
+            ],
+            "description": "peer",
+            "input_type": "list",
+            "name": "peer",
+            "placeholder": ""
+        },
+        {
+            "contains_type": [
+                "*"
+            ],
+            "description": "priority",
+            "input_type": "list",
+            "name": "priority",
+            "placeholder": ""
+        },
+        {
+            "contains_type": [
+                "*"
+            ],
+            "description": "count",
+            "input_type": "list",
+            "name": "count",
+            "placeholder": ""
+        },
+        {
+            "contains_type": [
+                "phantom container id"
+            ],
+            "description": "",
+            "input_type": "list",
+            "name": "container",
+            "placeholder": ""
+        }
+    ],
+    "outputs": [
+        {
+            "contains_type": [
+                "*"
+            ],
+            "data_path": "results_list",
+            "description": ""
+        }
+    ],
+    "platform_version": "4.9.34514"
+}
