@@ -1,0 +1,32 @@
+{
+    "create_time": "2020-12-19T04:41:04.838127+00:00",
+    "custom_function_id": "cdbf0955020e0ce020d050c500b614298050722f",
+    "description": "",
+    "draft_mode": false,
+    "inputs": [
+        {
+            "contains_type": [],
+            "description": "priority",
+            "input_type": "list",
+            "name": "filter_items",
+            "placeholder": ""
+        },
+        {
+            "contains_type": [
+                "phantom container id"
+            ],
+            "description": "",
+            "input_type": "item",
+            "name": "container",
+            "placeholder": ""
+        }
+    ],
+    "outputs": [
+        {
+            "contains_type": [],
+            "data_path": "filtered_list",
+            "description": ""
+        }
+    ],
+    "platform_version": "4.9.34514"
+}
